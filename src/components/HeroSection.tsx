@@ -127,7 +127,7 @@ export const HeroSection = () => {
             </div>
 
             <div className="flex space-x-6">
-              <a href="https://www.linkedin.com/in/kara-ghofrane-a7a015383/" className="p-4 rounded-full bg-card/30 hover:bg-card/50 transition-all duration-300 hover:scale-110 hover:animate-glow">
+              <a href="https://github.com/karaghofrane2003-commits" className="p-4 rounded-full bg-card/30 hover:bg-card/50 transition-all duration-300 hover:scale-110 hover:animate-glow">
                 <Github size={24} />
               </a>
               <a href="https://www.linkedin.com/in/kara-ghofrane-a7a015383/" className="p-4 rounded-full bg-card/30 hover:bg-card/50 transition-all duration-300 hover:scale-110 hover:animate-glow">
