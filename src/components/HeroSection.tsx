@@ -120,9 +120,18 @@ export const HeroSection = () => {
                 View My Work
                 <ArrowDown className="inline-block ml-2 group-hover:translate-y-1 transition-transform" size={20} />
               </button>
-              <button className="btn-cosmic">
-                Get In Touch
-              </button>
+             <button
+  className="btn-cosmic"
+  onClick={() => {
+    const ContactSection = document.getElementById('contact');
+    if (ContactSection) {
+      ContactSection.scrollIntoView({ behavior: 'smooth' });
+    }
+  }}
+>
+  Get In Touch
+</button>
+
               
             </div>
 
