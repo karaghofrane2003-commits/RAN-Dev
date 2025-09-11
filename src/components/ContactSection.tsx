@@ -214,7 +214,7 @@ export const ContactSection = () => {
 
   const primaryContacts = [
     { icon: Mail, label: 'Email', value: 'karaghofrane2003@gmail.com', href: 'https://mail.google.com/mail/?view=cm&fs=1&to=karaghofrane2003@gmail.com' },
-    { icon: Github, label: 'GitHub', value: 'karaghofrane', href: 'https://github.com/karaghofrane' },
+    { icon: Github, label: 'GitHub', value: 'karaghofrane', href: 'https://github.com/karaghofrane2003-commits' },
     { icon: Linkedin, label: 'LinkedIn', value: 'KARA Ghofrane', href: 'https://www.linkedin.com/in/kara-ghofrane-a7a015383/' }
   ];
 
