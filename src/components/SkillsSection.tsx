@@ -44,7 +44,7 @@ export const SkillsSection = () => {
         { name: 'Node.js', level: 50 },
         { name: 'Python', level: 70 },
         { name: 'PostgreSQL', level: 50 },
-        { name: 'Php', level: 50 }
+        { name: 'Django', level: 50 }
       ]
     },
     // {
