@@ -49,7 +49,7 @@ export const FeaturedProjectsSection = () => {
       description: "A modern e-commerce front-end featuring responsive design, smooth navigation, and user-friendly shopping experiences and optimized user experience.",
       image: projectUx,
       tech: ["React", "css", "Javascript", "TypeScript", "Design Tokens"],
-      github: "#",
+      github: "https://github.com/karaghofrane2003-commits/e-commerce-beauty",
       demo: "#",
       category: "Frontend"
     }
