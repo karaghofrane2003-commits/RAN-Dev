@@ -40,7 +40,7 @@ export const ProjectsSection = () => {
       description: 'A modern and responsive restaurant website that showcases the menu, highlights special dishes, and allows customers to make reservations online. Designed with an elegant interface to create an engaging dining experience before stepping into the restaurant.',
       image:  projectEcommerce ,
       tech: ['Html', 'Css', 'JavaScript'],
-      github: '#',
+      github: 'https://github.com/karaghofrane2003-commits/Restaurant-',
       demo: '#',
       featured: false
     },
