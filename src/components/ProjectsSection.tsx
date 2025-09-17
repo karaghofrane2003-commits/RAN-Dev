@@ -49,7 +49,7 @@ export const ProjectsSection = () => {
       description: 'An intuitive web application that delivers real-time weather forecasts with a clean and modern interface. It allows users to check temperature, humidity, wind speed, and weather conditions for any city worldwide.',
       image: projectMobile,
       tech: ['Html', 'Css', 'JavaScript'],
-      github: '#',
+      github: 'https://github.com/karaghofrane2003-commits/weather-App',
       demo: '#',
       featured: false
     }
