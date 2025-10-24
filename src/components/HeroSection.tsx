@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { ArrowDown, Github, Linkedin, Mail } from 'lucide-react';
 import profileCircle from '@/assets/profile-circle.jpg';
+import { Link } from 'react-router-dom';
 
 const TITLES = ["Web Developer", "App Developer", "UI/UX Designer"] as const;
 
@@ -116,10 +117,10 @@ export const HeroSection = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="fade-in-up space-y-8">
             <div className="flex flex-col sm:flex-row gap-6">
-              <button className="btn-cosmic group">
+                          <Link to="/projects" className="btn-cosmic group">
                 View My Work
                 <ArrowDown className="inline-block ml-2 group-hover:translate-y-1 transition-transform" size={20} />
-              </button>
+              </Link>
              <button
   className="btn-cosmic"
   onClick={() => {
