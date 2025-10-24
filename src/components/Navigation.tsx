@@ -46,7 +46,7 @@ export const Navigation = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between">
           <div className="text-2xl font-bold text-glow">
-            Luna Dev
+            RAN DEV
           </div>
 
           {/* Desktop Navigation */}
