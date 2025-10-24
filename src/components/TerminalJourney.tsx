@@ -2,37 +2,37 @@ import { Download } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 export const TerminalJourney = () => {
-  const downloadCV = () => {
-    const cvContent = `
-GHOFRANE - Web Developer
-===============================
+//   const downloadCV = () => {
+//     const cvContent = `
+// GHOFRANE - Web Developer
+// ===============================
 
-EXPERIENCE:
-• Frontend Development: React, TypeScript, Tailwind CSS
-• Backend Development: Node.js, Python, PostgreSQL  
-• Mobile Development: React Native, Flutter
-• UI/UX Design: Figma, Adobe Creative Suite
+// EXPERIENCE:
+// • Frontend Development: React, TypeScript, Tailwind CSS
+// • Backend Development: Node.js, Python, PostgreSQL  
+// • Mobile Development: React Native, Flutter
+// • UI/UX Design: Figma, Adobe Creative Suite
 
-ACHIEVEMENTS:
-• 20+ successful projects completed
-• 98% client satisfaction rate
-• A+ code quality score
-• 3 innovation awards received
+// ACHIEVEMENTS:
+// • 20+ successful projects completed
+// • 98% client satisfaction rate
+// • A+ code quality score
+// • 3 innovation awards received
 
-PHILOSOPHY:
-"Code is poetry, design is art, and together they create magic."
-    `;
+// PHILOSOPHY:
+// "Code is poetry, design is art, and together they create magic."
+//     `;
     
-    const blob = new Blob([cvContent], { type: 'text/plain' });
-    const url = URL.createObjectURL(blob);
-    const a = document.createElement('a');
-    a.href = url;
-    a.download = 'Ghofrane_CV.txt';
-    document.body.appendChild(a);
-    a.click();
-    document.body.removeChild(a);
-    URL.revokeObjectURL(url);
-  };
+//     const blob = new Blob([cvContent], { type: 'text/plain' });
+//     const url = URL.createObjectURL(blob);
+//     const a = document.createElement('a');
+//     a.href = url;
+//     a.download = 'Ghofrane_CV.txt';
+//     document.body.appendChild(a);
+//     a.click();
+//     document.body.removeChild(a);
+//     URL.revokeObjectURL(url);
+//   };
 
   const terminalContent = `ghofrane@dev:~$ whoami
 Ghofrane - Web Developer
@@ -78,10 +78,7 @@ ghofrane@dev:~$ `;
       </div>
 
       <div className="text-center">
-        <Button 
-          onClick={downloadCV} 
-          className="btn-cosmic group"
-        >
+        <Button>
           <Download size={20} className="mr-2 group-hover:animate-bounce" />
           Download CV
         </Button>
