@@ -3,6 +3,8 @@ import { ExternalLink, Github, Star } from 'lucide-react';
 import projectEcommerce from '@/assets/rest.png';
 import projectMobile from '@/assets/weather.png';
 import projectUX from '@/assets/project-ux.jpg';
+import { Link } from 'react-router-dom';
+import { ArrowDown, Linkedin, Mail } from 'lucide-react';
 
 export const ProjectsSection = () => {
   const projectsRef = useRef<HTMLElement>(null);
@@ -128,8 +130,13 @@ export const ProjectsSection = () => {
 
         <div className="text-center mt-16 fade-in-up">
           <button className="btn-cosmic">
-            View All Projects
+                             <Link to="/projects" className="btn-cosmic group">
+                View All Projects
+                <ArrowDown className="inline-block ml-2 group-hover:translate-y-1 transition-transform" size={20} />
+              </Link>
+             
           </button>
+              
    {/* <a
   href="https://github.com/karaghofrane2003-commits?tab=repositories"
   target="_blank"
