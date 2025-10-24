@@ -132,7 +132,7 @@ export const ProjectsSection = () => {
           <button className="btn-cosmic">
                              <Link to="/projects" className="btn-cosmic group">
                 View All Projects
-                <ArrowDown className="inline-block ml-2 group-hover:translate-y-1 transition-transform" size={20} />
+            
               </Link>
              
           </button>
