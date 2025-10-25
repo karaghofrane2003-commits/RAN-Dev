@@ -58,12 +58,12 @@ export const ToolsCarousel = () => {
   }, [techTools.length]);
 
   return (
-    <section ref={carouselRef} className="py-20 px-6">
+    <section ref={carouselRef} className="py-10 px-6">
       <div className="container mx-auto">
-        <div className="text-center mb-16 fade-in-up">
+        {/* <div className="text-center mb-16 fade-in-up">
           <h2 className="text-4xl md:text-5xl font-bold text-glow mb-6">Tools & Technologies</h2>
          
-        </div>
+        </div> */}
 
         <div className="relative flex justify-center items-center min-h-[400px] fade-in-up">
           <div className="relative w-80 h-80 md:w-96 md:h-96">
